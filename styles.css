@@ -1,0 +1,11 @@
+#banner {
+  
+    background-image: url('.file type');
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 46rem;
