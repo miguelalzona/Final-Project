@@ -1,3 +1,18 @@
+class taskManagerItems {
+    constructor (ID, taskName, description, assignedTo, dueDate, status) {
+        this._ID= taskManagerItems.incrementID();
+        this._Name= taskName;
+        this._description= description;
+        this._AssignedTo= assignedTo;
+        this._DueDate = dueDate;
+        this._taskStatusArray =[ToDo, In Progress, Review, Done];
+    }
+    addTaskManagerItems(date, text, id) {
+        const taskManagerItems = {
+            parameters: this.parameters++
+             
+        }
+    }
 let taskManagerItems = [];
 
 function taskManagerItems(text) {
@@ -22,4 +37,5 @@ form.addEventListener('submit', event => {
     input.value = '';
     input.focus();
   }
-});
+})
+};
