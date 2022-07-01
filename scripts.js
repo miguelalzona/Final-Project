@@ -5,17 +5,18 @@ class taskManagerItems {
         this._description= description;
         this._AssignedTo= assignedTo;
         this._DueDate = dueDate;
-        this._taskStatusArray =[ToDo, In Progress, Review, Done];
+        this._taskStatusArray =['ToDo', 'In Progress', 'Review', 'Done'];
+        this._addTaskItems()
     }
-    addTaskManagerItems(date, text, id) {
-        const taskManagerItems = {
+    addTaskItems(date, text, id) {
+        const taskItems = {
             parameters: this.parameters++
              
         }
     }
-let taskManagerItems = [];
+let x= new taskManagerItems
 
-function taskManagerItems(text) {
+function taskItems(text) {
   const todo = {
     text,
     checked: false,
